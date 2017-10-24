@@ -44,14 +44,16 @@ Install-Scrapy-For-Python3.X（WIN下）
   pip3 install Scrapy-1.4.0-py2.py3-none-any.whl
   pip3 install Twisted-17.9.0-cp36-cp36m-win_amd64.whl
   ```
-  
-  -------------------------------------------------------------
+
+---------------------------------------------------
+
   至此，Scrapy安装完成，可选装pywin32（Scrapy工程报错时），下载地址为（请选择最新版本及对应python版本）：</br>
+  
   
   `https://sourceforge.net/projects/pywin32/files/pywin32/`
   
-  
-  -------------------------------------------------------------
+---------------------------------------------------  
+
   `附CMD命令执行结果`
   
   ```

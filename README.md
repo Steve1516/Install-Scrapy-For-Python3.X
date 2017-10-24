@@ -16,7 +16,7 @@ Install-Scrapy-For-Python3.X（WIN下）
 
 -----------------------------------------------------
 
-  1、查看Python版本（确定是python小版本号和32/64位）
+  1、查看Python版本（确定是python小版本号和32/64位）</br>
   ```
   运行->CMD->
   C:\python
@@ -25,15 +25,17 @@ Install-Scrapy-For-Python3.X（WIN下）
   
   2、下载Lxml、Twisted、Scrapy文件</br>
   下载网址`http://www.lfd.uci.edu/~gohlke/pythonlibs/`，请下载与Python对应的版本：</br>
-  例：lxml-4.1.0-cp36-cp36m-win_amd64.whl，表示lxml的版本为4.1.0，对应的python版本为3.6-64bit。
-  ```
+  例：lxml-4.1.0-cp36-cp36m-win_amd64.whl，表示lxml的版本为4.1.0，对应的python版本为3.6-64bit。</br>
+  
+  ```
   3个文件名如下：
   lxml-4.1.0-cp36-cp36m-win_amd64.whl
   Scrapy-1.4.0-py2.py3-none-any.whl
   Twisted-17.9.0-cp36-cp36m-win_amd64.whl
   ```
   
-  3、切换至安装文件所在目录，依次执行以下命令
+  3、切换至安装文件所在目录，依次执行以下命令</br>
+  
   ```cmd
   cd /d e:\Scrapy\
   pip3 install wheel
@@ -43,7 +45,8 @@ Install-Scrapy-For-Python3.X（WIN下）
   ```
   
   -------------------------------------------------------------
-  至此，Scrapy安装完成，可选装pywin32（Scrapy工程报错时），下载地址为（请选择最新版本及对应python版本）：
+  至此，Scrapy安装完成，可选装pywin32（Scrapy工程报错时），下载地址为（请选择最新版本及对应python版本）：</br>
+  
   ```
   https://sourceforge.net/projects/pywin32/files/pywin32/
   ```

@@ -26,15 +26,17 @@ Install-Scrapy-For-Python3.X（WIN下）
   2、下载Lxml、Twisted、Scrapy文件</br>
   下载网址`http://www.lfd.uci.edu/~gohlke/pythonlibs/`，请下载与Python对应的版本：</br>
   例：lxml-4.1.0-cp36-cp36m-win_amd64.whl，表示lxml的版本为4.1.0，对应的python版本为3.6-64bit。</br>
-  
+ 
+  ```
   3个文件名如下：</br>
-  ```
   lxml-4.1.0-cp36-cp36m-win_amd64.whl</br>
   Scrapy-1.4.0-py2.py3-none-any.whl</br>
   Twisted-17.9.0-cp36-cp36m-win_amd64.whl</br>
   ```
   
+  
   3、切换至安装文件所在目录，依次执行以下命令</br>
+  
   ```
   cd /d e:\Scrapy\</br>
   pip3 install wheel</br>

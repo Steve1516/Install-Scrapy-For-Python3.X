@@ -5,8 +5,8 @@ Install-Scrapy-For-Python3.X（WIN下）
 
 -----------------------------------------------------
   ```
-  直接pip3 install Scrapy失败的小伙伴请参考以下教程
-  安装Scrapy的3个步骤：
+  供直接pip3 install Scrapy失败的小伙伴参考：
+  安装Scrapy的若干步骤：
   1.安装wheel
   2.安装lxml
   3.安装Twisted
